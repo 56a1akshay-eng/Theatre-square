@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    long long  m,n,a;
+    if(cin>>m>>n>>a){
+     long long i,j,c;
+    i=(m+a-1)/a;
+    j=(n+a-1)/a;
+    c=i*j;
+    cout<<c;
+    }
+    return 0;
+}
